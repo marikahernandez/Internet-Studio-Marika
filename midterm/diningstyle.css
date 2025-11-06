@@ -1,0 +1,85 @@
+html {
+  background-image: url("images/brownwallpaper.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+body {
+    font-family: "Pinyon Script", cursive;
+}
+h1 {
+    text-align: center;
+    font-size: 2.2em;
+    margin: 0 0 10px 0;
+    color: #F8F8FF;
+    padding-top: 5px;
+}
+p {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-size: ;font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    color: #F8F8FF;
+    background-image: url(coffeeshop.jpeg);
+    background-image: url(hamburgers.jpeg);
+    background-image: url(helter.jpeg);
+    border-radius: 20px;   
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #F8F8FF;
+    padding: 10px 20px;
+    background: #8B0000;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.7);
+    text-shadow: 0px -1px 1px rgba(000, 000, 000, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.3);
+}
+ nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+ }
+ .nav ul li a {
+    text-decoration: none;
+    margin: 12px 5px 12px 5px;
+    padding: 10px;
+    background-color: powderblue;
+    border: 3px dodgerblue solid;
+    border-radius: 6px;
+    
+}
+
+.nav li a:hover {
+    border-color: powderblue;
+    background-color: dodgerblue;
+    color: white;
+} 
+
+ nav ul li { 
+ background-color: #000000;
+ padding:10px
+ border-radius: 5px }
+
+nav a {
+    transition: all .5s; 
+    transition: transform .5s, background-color 1s ease-in .5s;
+}
+
+nav a:hover{
+    background-color: red;
+    transform: scale(1.5);
+}
